@@ -14,6 +14,8 @@
 		277C26C92082869A00592224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277C26C72082869A00592224 /* LaunchScreen.storyboard */; };
 		277C26D12082AAE800592224 /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C26D02082AAE800592224 /* DismissSegue.swift */; };
 		277C26D32083C43A00592224 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C26D22083C43A00592224 /* LoginController.swift */; };
+		277C26D62083DCF400592224 /* RestApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C26D52083DCF400592224 /* RestApiManager.swift */; };
+		277C26D92083E68C00592224 /* TransactionDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277C26D82083E68C00592224 /* TransactionDto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		277C26CA2082869A00592224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		277C26D02082AAE800592224 /* DismissSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
 		277C26D22083C43A00592224 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		277C26D52083DCF400592224 /* RestApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiManager.swift; sourceTree = "<group>"; };
+		277C26D82083E68C00592224 /* TransactionDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		277C26BD2082869800592224 /* Transaction */ = {
 			isa = PBXGroup;
 			children = (
+				277C26D72083E66400592224 /* Model */,
 				277C26D42083C6F600592224 /* Controllers */,
 				277C26BE2082869800592224 /* AppDelegate.swift */,
 				277C26C22082869800592224 /* Main.storyboard */,
@@ -65,6 +70,7 @@
 				277C26C72082869A00592224 /* LaunchScreen.storyboard */,
 				277C26CA2082869A00592224 /* Info.plist */,
 				277C26D02082AAE800592224 /* DismissSegue.swift */,
+				277C26D52083DCF400592224 /* RestApiManager.swift */,
 			);
 			path = Transaction;
 			sourceTree = "<group>";
@@ -76,6 +82,14 @@
 				277C26D22083C43A00592224 /* LoginController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		277C26D72083E66400592224 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				277C26D82083E68C00592224 /* TransactionDto.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +165,9 @@
 			files = (
 				277C26C12082869800592224 /* ViewController.swift in Sources */,
 				277C26D32083C43A00592224 /* LoginController.swift in Sources */,
+				277C26D92083E68C00592224 /* TransactionDto.swift in Sources */,
 				277C26D12082AAE800592224 /* DismissSegue.swift in Sources */,
+				277C26D62083DCF400592224 /* RestApiManager.swift in Sources */,
 				277C26BF2082869800592224 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
